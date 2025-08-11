@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class Main
+{
+	public static void main(String[] args) {
+        String nome;
+        double nota1;
+        double nota2;
+        double soma;
+        double media;
+        
+        Scanner input = new Scanner(System.in);
+        
+        System.out.print("Digite o nome: ");
+        nome = input.next();
+        System.out.print("Digite a 1ª nota: ");
+        nota1 = input.nextDouble();
+        System.out.print("Digite a 2ª nota: ");
+        nota2 = input.nextDouble();
+        
+        soma = nota1 + nota2;
+        media = soma / 2;
+        
+        if (media >= 6) {
+            System.out.print(nome + " foi aprovado.");
+        } else {
+            System.out.print(nome + " foi reprovado.");
+        }
+	
+	
+	
+	}
+}
