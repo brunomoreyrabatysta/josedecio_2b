@@ -25,8 +25,5 @@ public class Main
         } else {
             System.out.print(nome + " foi reprovado.");
         }
-	
-	
-	
 	}
 }
